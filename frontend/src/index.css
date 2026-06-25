@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #F2EDD5;
+  --color-primary-red: #E7390D;
+  --color-primary-orange: #F26716;
+  --color-dark-green: #084A24;
+  --color-very-dark-green: #04261E;
+}
+
+@layer base {
+  body {
+    @apply bg-cream text-very-dark-green font-sans m-0 p-0 antialiased;
+  }
+}

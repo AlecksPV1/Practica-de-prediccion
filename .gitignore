@@ -1,0 +1,19 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Dependencias frontend
+node_modules/
+dist/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Carpetas del agente
+.agent/
+.gemini/
+
+# Otros
+.DS_Store
